@@ -1,3 +1,4 @@
+
 # Wish the Glory Belongs to Hong Kong
 use_bpm 100
 use_synth :piano
@@ -83,47 +84,48 @@ sleep 0.5
 #8
 
 play :A3, sustain: 3
-sleep 1
+sleep 1.5
 play :F, sustain: 3
 sleep 0.5
 play :E, sustain: 3
 sleep 1.5
-play :D, attack: 0.05, sustain: 3
+play :D, sustain: 3
 sleep 0.5
 
 #9
 
 play :C, attack: 0.05, sustain: 3
-sleep 2
-
-## ä½•ä»¥é€™ææ‡¼æŠ¹ä¸èµ°
+sleep 2.5
+sleep 0.5
 
 play :G3, attack: 0.05, sustain: 3
-sleep 1
+sleep 0.5
+
+#10
+
 play :C, attack: 0.05, sustain: 3
 sleep 1
-
 play :C, sustain: 3
 sleep 0.5
 play :D, attack: 0.05, sustain: 3
-# play :E3
 sleep 0.5
-
 play :B3,  sustain: 3
 sleep 1
-
 play :B3, sustain: 3
 sleep 0.5
 play :C, sustain: 3
 sleep 0.5
 
+#11
+
 play :A3, sustain: 3
 sleep 2.5
-
-# ä½•ä»¥çˆ²ä¿¡å¿µæ²’é€€å¾Œ
-
+sleep 0.5
 play :C, sustain: 3
-sleep 1
+sleep 0.5
+
+#12
+
 play :F, sustain: 3
 sleep 1
 play :E, sustain: 3
@@ -134,19 +136,24 @@ play :D, sustain: 3
 sleep 0.5
 play :D, sustain: 3
 sleep 0.5
+
+
 play :E, sustain: 3
 sleep 0.5
 play :F, sustain: 3
 sleep 0.5
 
+
+#13
+
 play :E, sustain: 3
-sleep 1
-
-
-# ä½•è§£è¡€åœ¨æµ
-
+sleep 2.5
+sleep 0.5
 play :C, sustain: 3
-sleep 1
+sleep 0.5
+
+#14
+
 play :A, sustain: 3
 sleep 1
 play :F, sustain: 3
@@ -155,50 +162,52 @@ play :E, sustain: 3
 sleep 0.5
 play :D, sustain: 3
 sleep 0.5
-
-# ä½†é‚é€²è²éŸ¿é€
 play :D, sustain: 3
 sleep 0.5
 play :E, sustain: 3
 sleep 0.5
 play :F, sustain: 3
 sleep 0.5
+
+#15
+
 play :G, sustain: 3
 sleep 1
 play :E, sustain: 3
 sleep 1
 play :C, sustain: 3
 sleep 1
-
-# å»ºè‡ªç”±å…‰è¼é¦™æ¸¯
-
 play :C, sustain: 3
 sleep 0.5
 play :B3, sustain: 3
 sleep 0.5
 
-#19
+#16
 play :A3, sustain: 3
-sleep 1
+sleep 1.5
 play :F, sustain: 3
-sleep 1
+sleep 0.5
 play :E, sustain: 3
-sleep 1
+sleep 1.5
 play :D, sustain: 3
-sleep 1
+sleep 0.5
+
+#17
+
 play :C, sustain: 3
 sleep 2
-
-# åœ¨æ™šæ˜Ÿå¢œè½ å½·å¾¨åˆå¤œ
-
+sleep 0.5
 play :B3, sustain: 3
 sleep 0.5
 play :C, sustain: 3
 sleep 0.5
+
+#18
+
 play :D, sustain: 3
 sleep 1
 play :B3, sustain: 3
-sleep 1
+sleep 0.5
 play :B3, sustain: 3
 sleep 0.5
 
@@ -210,6 +219,7 @@ play :F, sustain: 3
 sleep 0.5
 play :E, sustain: 3
 sleep 2
+sleep 0.5
 
 # è¿·éœ§è£æœ€é è™•å¹ä¾†è™Ÿè§’è²
 play :D, sustain: 3
@@ -275,7 +285,7 @@ play :C5, sustain: 3
 sleep 1
 play :C5, sustain: 3
 sleep 0.5
-play :C, sustain: 3
+play :C5, sustain: 3
 sleep 1
 play :C5, sustain: 3
 sleep 0.5
@@ -294,7 +304,7 @@ sleep 0.5
 play :G, sustain: 3
 sleep 0.5
 play :G, sustain: 3
-sleep 1
+sleep 0.5
 
 #25
 
@@ -315,6 +325,7 @@ sleep 0.5
 
 play :A, sustain: 3
 sleep 2
+sleep 0.5
 play :C5, sustain: 3
 sleep 0.5
 play :C5, sustain: 3
@@ -386,4 +397,5 @@ play :E5, sustain: 3
 sleep 1.5
 play :D5, sustain: 3
 sleep 0.5
+play :C5, sustain: 3
 sleep 4
