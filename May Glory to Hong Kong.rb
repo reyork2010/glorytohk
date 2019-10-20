@@ -1,222 +1,389 @@
-
-# 🇭🇰  Wish the Glory Belongs to Hong Kong 🇭🇰
+# Wish the Glory Belongs to Hong Kong
 use_bpm 100
 use_synth :piano
 
-# 何以這土地淚再流
+#1
 
-play :G3, attack: 0.05, break: 0.5
+play :G3, attack: 0.05, sustain: 3
 sleep 0.5
-play :C, attack: 0.05, break: 0.5
+
+#2
+
+play :C, attack: 0.05, sustain: 3
 sleep 1
-
-play :C, attack: 0.05, break: 0.5
+play :C, attack: 0.05, sustain: 3
 sleep 0.5
-play :D, attack: 0.05, break: 0.5
-# play :E3
+play :D, attack: 0.05, sustain: 3
 sleep 0.5
-
-play :B3, attack: 0.05, break: 0.5
+play :B3, attack: 0.05, sustain: 3
 sleep 1
-
-play :B3, attack: 0.05, break: 0.5
+play :B3, attack: 0.05, sustain: 3
 sleep 0.5
-play :C, attack: 0.05, break: 0.5
+play :C, attack: 0.05, sustain: 3
 sleep 0.5
 
-play :A3, attack: 0.05, sustain: 0.25, break: 2.5
+
+#3
+
+play :A3, attack: 0.05, sustain: 3
 sleep 2.5
-
-# 何以令衆人亦憤恨
-
-play :C
-sleep 0.5
-play :F
-sleep 1
-play :E
-sleep 0.5
-play :F
-sleep 0.5
-play :D
-sleep 1
-play :E
-sleep 0.5
-play :F
+play :C, sustain: 3
 sleep 0.5
 
-play :E, attack: 0.05, sustain: 0.25, break: 2
-sleep 1
+#4
 
-# 昂首拒默沉
+play :F, sustain: 3
+sleep 1
+play :E, sustain: 3
+sleep 0.5
+play :F, sustain: 3
+sleep 0.5
+play :D, sustain: 3
+sleep 1
+play :E, sustain: 3
+sleep 0.5
+play :F, sustain: 5
+sleep 0.5
 
-sleep 1
-play :C
-sleep 0.5
-play :A4
-sleep 1
-play :F
-sleep 0.5
-play :E
-sleep 0.5
-play :D
-sleep 1
+#5
 
-# 吶喊聲響透
+play :E, attack: 0.05, sustain: 3, break: 2
+sleep 2
+play :C, sustain: 3
+sleep 0.5
 
-play :E
-sleep 0.5
-play :F
-sleep 0.5
-play :G
-sleep 1
-play :E
-sleep 1
-play :C
-sleep 1
+#6
 
-# 盼自由歸於這裏
-
-play :C
-sleep 0.5
-play :B3
-sleep 0.5
-play :A3
+play :A4, sustain: 3
 sleep 1
-play :F
+play :F, sustain: 3
 sleep 0.5
-play :E
+play :E, sustain: 3
+sleep 0.5
+play :D, sustain: 3
 sleep 1
-
-play :D, attack: 0.05, break: 0.5
+play :E, sustain: 3
 sleep 0.5
-play :C, attack: 0.05, break: 0.5
+play :F, sustain: 3
+sleep 0.5
+
+#7
+
+play :G, sustain: 3
+sleep 1
+play :E, sustain: 3
+sleep 1
+play :C, sustain: 3
+sleep 1
+play :C, sustain: 3
+sleep 0.5
+play :B3, sustain: 3
+sleep 0.5
+
+#8
+
+play :A3, sustain: 3
+sleep 1
+play :F, sustain: 3
+sleep 0.5
+play :E, sustain: 3
+sleep 1.5
+play :D, attack: 0.05, sustain: 3
+sleep 0.5
+
+#9
+
+play :C, attack: 0.05, sustain: 3
 sleep 2
 
-## 何以這恐懼抹不走
+## ä½•ä»¥é€™ææ‡¼æŠ¹ä¸èµ°
 
-play :G3, attack: 0.05, break: 0.5
-sleep 0.5
-play :C, attack: 0.05, break: 0.5
+play :G3, attack: 0.05, sustain: 3
+sleep 1
+play :C, attack: 0.05, sustain: 3
 sleep 1
 
-play :C, attack: 0.05, break: 0.5
+play :C, sustain: 3
 sleep 0.5
-play :D, attack: 0.05, break: 0.5
+play :D, attack: 0.05, sustain: 3
 # play :E3
 sleep 0.5
 
-play :B3, attack: 0.05, break: 0.5
+play :B3,  sustain: 3
 sleep 1
 
-play :B3, attack: 0.05, break: 0.5
+play :B3, sustain: 3
 sleep 0.5
-play :C, attack: 0.05, break: 0.5
+play :C, sustain: 3
 sleep 0.5
 
-play :A3, attack: 0.05, sustain: 0.5, break: 2.5
+play :A3, sustain: 3
 sleep 2.5
 
-# 何以爲信念沒退後
+# ä½•ä»¥çˆ²ä¿¡å¿µæ²’é€€å¾Œ
 
-play :C
-sleep 0.5
-play :F
+play :C, sustain: 3
 sleep 1
-play :E
-sleep 0.5
-play :F
-sleep 0.5
-play :D
+play :F, sustain: 3
 sleep 1
-play :E
+play :E, sustain: 3
 sleep 0.5
-play :F
+play :F, sustain: 3
 sleep 0.5
-
-play :E, attack: 0.05, sustain: 0.25, break: 0.5
-sleep 1
-
-
-# 何解血在流
-
-play :C
-sleep 1
-play :A
-sleep 1
-play :F
+play :D, sustain: 3
 sleep 0.5
-play :E
+play :D, sustain: 3
 sleep 0.5
-play :D
+play :E, sustain: 3
+sleep 0.5
+play :F, sustain: 3
 sleep 0.5
 
-# 但邁進聲響透
-play :D
-sleep 0.5
-play :E
-sleep 0.5
-play :F
-sleep 0.5
-play :G
-sleep 0.5
-sleep 0.5
-play :E
-sleep 0.5
-sleep 0.5
-play :C
+play :E, sustain: 3
 sleep 1
 
-# 建自由光輝香港
 
-play :C
+# ä½•è§£è¡€åœ¨æµ
+
+play :C, sustain: 3
+sleep 1
+play :A, sustain: 3
+sleep 1
+play :F, sustain: 3
 sleep 0.5
-play :B3
+play :E, sustain: 3
+sleep 0.5
+play :D, sustain: 3
+sleep 0.5
+
+# ä½†é‚é€²è²éŸ¿é€
+play :D, sustain: 3
+sleep 0.5
+play :E, sustain: 3
+sleep 0.5
+play :F, sustain: 3
+sleep 0.5
+play :G, sustain: 3
+sleep 1
+play :E, sustain: 3
+sleep 1
+play :C, sustain: 3
+sleep 1
+
+# å»ºè‡ªç”±å…‰è¼é¦™æ¸¯
+
+play :C, sustain: 3
+sleep 0.5
+play :B3, sustain: 3
 sleep 0.5
 
 #19
-play :A3
+play :A3, sustain: 3
 sleep 1
-play :F
-sleep 0.5
-play :E
+play :F, sustain: 3
 sleep 1
-play :D
-sleep 0.5
-play :C, sustain: 1.5, break: 0.5
+play :E, sustain: 3
+sleep 1
+play :D, sustain: 3
+sleep 1
+play :C, sustain: 3
 sleep 2
 
-# 在晚星墜落 彷徨午夜
+# åœ¨æ™šæ˜Ÿå¢œè½ å½·å¾¨åˆå¤œ
 
-play :B3
+play :B3, sustain: 3
 sleep 0.5
-play :C
+play :C, sustain: 3
+sleep 0.5
+play :D, sustain: 3
 sleep 1
-play :D
-sleep 1.5
-play :B3
-sleep 0.5
-play :B3
+play :B3, sustain: 3
+sleep 1
+play :B3, sustain: 3
 sleep 0.5
 
-play :A3
+play :G3, sustain: 3
 sleep 0.5
-play :A3
+play :G3, sustain: 3
 sleep 0.5
-play :F
+play :F, sustain: 3
 sleep 0.5
-play :E
+play :E, sustain: 3
 sleep 2
 
-# 迷霧裏最遠處吹來號角聲
-play :D
-sleep 1
-play :E
-sleep 1
-play :F
-sleep 1.5
-play :F
+# è¿·éœ§è£æœ€é è™•å¹ä¾†è™Ÿè§’è²
+play :D, sustain: 3
 sleep 0.5
-play :F
+play :E, sustain: 3
 sleep 0.5
-play :F
+play :F, sustain: 3
 sleep 1.5
+play :F, sustain: 3
+sleep 0.5
+play :F, sustain: 3
+sleep 0.5
+play :F, sustain: 3
+sleep 0.5
+play :G, sustain: 3
+sleep 0.5
+play :D, sustain: 3
+sleep 0.5
+
+# 21
+
+play :E, sustain: 3
+sleep 1
+play :G, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :B, sustain: 3
+sleep 0.5
+
+
+#22
+play :A, sustain: 3
+sleep 1
+play :A, sustain: 3
+sleep 0.5
+play :A, sustain: 3
+sleep 0.5
+play :B, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 1
+play :A, sustain: 3
+sleep 0.5
+play :A, sustain: 3
+sleep 0.5
+play :B, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+
+#23
+
+play :C5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :C, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 1
+play :D5, sustain: 3
+sleep 0.5
+
+#24
+
+play :B, sustain: 3
+sleep 2
+sleep 0.5
+play :G, sustain: 3
+sleep 0.5
+play :G, sustain: 3
+sleep 0.5
+play :G, sustain: 3
+sleep 1
+
+#25
+
+play :C5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :D5, sustain: 3
+sleep 0.5
+play :B, sustain: 3
+sleep 1
+play :B, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+
+#26
+
+play :A, sustain: 3
+sleep 2
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+
+#27
+
+play :F5, sustain: 3
+sleep 1
+play :E5, sustain: 3
+sleep 0.5
+play :F5, sustain: 3
+sleep 0.5
+play :D5, sustain: 3
+sleep 0.5
+play :E5, sustain: 3
+sleep 0.5
+play :F5, sustain: 3
+sleep 0.5
+
+#28
+
+play :E5, sustain: 3
+sleep 2
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+play :C5, sustain: 3
+sleep 0.5
+
+#29
+play :A5, sustain: 3
+sleep 1
+play :F5, sustain: 3
+sleep 0.5
+play :E5, sustain: 3
+sleep 0.5
+play :D5, sustain: 3
+sleep 1
+play :E5, sustain: 3
+sleep 0.5
+play :F5, sustain: 3
+sleep 0.5
+
+#30
+play :G5, sustain: 3
+sleep 1
+play :E5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 1
+play :C5, sustain: 3
+sleep 0.5
+play :B, sustain: 3
+sleep 0.5
+
+
+#31
+
+play :A, sustain: 3
+sleep 1.5
+play :F5, sustain: 3
+sleep 0.5
+play :E5, sustain: 3
+sleep 1.5
+play :D5, sustain: 3
+sleep 0.5
+sleep 4
